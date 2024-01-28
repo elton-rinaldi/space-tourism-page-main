@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+/* font-family: 'Barlow Condensed', sans-serif; */
+/* font-family: 'Bellefair', serif; */
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Barlow Condensed', sans-serif; 
+}
+
+.flex-column-center{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.flex-center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
